@@ -151,5 +151,25 @@ body {
   .message {
     font-size: 1rem;
   }
+
 }
 
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 24px auto;
+  padding: 14px 32px;
+  background: linear-gradient(90deg, #a259e6 60%, #6c47b6 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 8px 32px rgba(162, 89, 230, 0.15);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+}
