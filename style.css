@@ -130,4 +130,20 @@ button.surprise-btn:hover {
 }
 .surprise-message {
   text-align: center;
+}.creditos-criador {
+    position: fixed;
+    bottom: 10px;   /* distância do fundo */
+    right: 10px;    /* distância da direita */
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: background 0.3s ease;
+}
+
+.creditos-criador:hover {
+    background: rgba(0,0,0,0.8);
 }
